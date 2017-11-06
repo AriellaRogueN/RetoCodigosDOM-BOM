@@ -1,0 +1,71 @@
+/*Modifico caracteristicas por defecto*/
+*{
+    margin: 0;
+    padding:0;
+}
+
+/*Estilizo el header*/
+
+.container{
+     width: 90%;
+     padding-left: 14px;
+     padding-right: 14px;
+}
+
+header{
+    background-color:white;
+    text-align: center;
+}
+
+header div img{
+    width: 200px;
+}
+
+.imagebackground{
+    background-image:url(fondo.jpg);
+    padding-bottom: 400px;
+    
+}
+
+.textbox{
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-seri;
+    background-color: white;
+    width: 500px;
+    margin-left: 100px;
+    padding-bottom: 100px;
+    padding-left: 20px;
+    padding-top: 40px;
+}
+
+.textbox h1{
+    font-weight: bold;
+}
+
+form{
+    position: relative;
+    bottom: 215px;
+    margin-top:20px;
+    background-color: white;
+    width: 500px ;
+    float: right;
+    margin-right: 150px;
+}
+
+input[type="text"] {
+    width:100%;
+    padding-bottom: 100px;
+}
+
+input[type="button"]{
+
+}
+
+hr{
+    border: 0.5px solid #009BF6;
+    margin-bottom: 40px;
+    width: 100% ;
+    
+}
+
+
+
