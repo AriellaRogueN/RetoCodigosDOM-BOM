@@ -35,3 +35,18 @@ function add() {
     commentContainer.appendChild(replicatedComments);
 
 }
+
+
+function contar() {
+    var max = "140";
+    var cadena = document.getElementById("usertext").value;
+    var longitud = cadena.length;
+
+    if (longitud <= max) {
+        document.getElementById("counter").value = max - longitud;
+    } else {
+        document.getElementById("usertext").value = cadena.substr(0, max);
+    }
+}
+
+    

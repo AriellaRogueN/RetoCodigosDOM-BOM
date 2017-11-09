@@ -26,9 +26,12 @@
             </div>
             <!--Área de ingreso de texto y comentarios-->
             <div class="textContainer">
-                <textarea class="txt" id="usertext" placeholder="¿Qué está pasando?"></textarea>
+                <div class="contador">
+                <textarea class="txt" id="usertext" placeholder="¿Qué está pasando?" onkeydown="contar()"></textarea>
                 <button type="button" id="btn" onclick="add()">TWETT</button>
-                <!--Contenedor de comentarios-->
+                <input disabled size="3" value="140" id="counter">
+                </div>
+            <!--Contenedor de comentarios-->
                 <div id="commentContainer"></div>
             </div>
 

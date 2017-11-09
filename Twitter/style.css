@@ -68,6 +68,13 @@ textarea {
     margin: 0 auto;
 }
 
+#counter {
+   position:absolute;
+   left: 1100px;
+   top: 270px;
+   background-color: rgb(162, 191, 241);
+}
+
 
 /*Estilizo boton del formulario*/
 
@@ -86,7 +93,6 @@ textarea {
 #btn:focus {
     background-color: #009bf6;
 }
-
 
 /*Doy estilo al contenedor de los comentarios y al div*/
 
