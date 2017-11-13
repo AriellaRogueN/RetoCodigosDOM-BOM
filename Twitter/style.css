@@ -72,7 +72,8 @@ textarea {
    position:absolute;
    left: 1100px;
    top: 270px;
-   background-color: rgb(162, 191, 241);
+   color:#009bf6;
+   font-weight: bold;
 }
 
 
